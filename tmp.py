@@ -6,12 +6,16 @@ logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 FilesListe = [
     "src/__init__.py",
-    "src/helper.py", # all the functionality
+    "src/functions.py", # all the functionality
     "src/prompt.py",
     ".env",
     "setup.py",
     "app.py",
-    "research/trials.ipynb" # my notebook to test and create everything before creating the app
+    "Logik_NoteBook/LogikNB.ipynb" # my notebook to test and create everything before creating the app
+    
+    #Meine App:
+    "template/chatbot.html"
+    "static/styles.css"
 ]
 
 for filepath in FilesListe:
